@@ -166,7 +166,7 @@ function authenticateUser(sessionPasscode, pass, ph){
      });
 }
 
-//queries db, greets user with his name as per his timezone
+//queries db, greets user with his name as per his timezone.
 function launchReq(request, response, session, ph){
      getPasscode(ph).then(data=>{
          if(data){
